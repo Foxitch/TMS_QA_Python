@@ -17,8 +17,8 @@
 # Только один раз можно использовать print
 
 
-age = int(input('Введите возраст:'))
-name = input('Введите имя:').capitalize().strip()
+age: int = int(input('Введите возраст:'))
+name: str = input('Введите имя:').capitalize().strip()
 
 # Ян вышел из чата...
 if len(name) < 4:
@@ -37,9 +37,3 @@ else:
     a = f'Приветствую вас, {name}. Ваш возраст {age}'
 
 print(a)
-
-
-
-
-
-

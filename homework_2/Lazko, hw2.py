@@ -17,8 +17,8 @@
 # Только один раз можно использовать print
 
 
-age: int = int(input('Enter your age:'))
 name: str = input('Enter your name:').capitalize().strip()
+age: int = int(input('Enter your age:'))
 
 if len(name) < 3:
     a = 'Name cannot be less than 3 symbols'

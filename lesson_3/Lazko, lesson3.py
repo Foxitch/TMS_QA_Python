@@ -23,7 +23,7 @@ name: str = input('Enter your name:').capitalize().strip()
 if len(name) < 3:
     a = 'Name cannot be less than 3 symbols'
 elif age <= 0:
-    a = 'Name cannot be negative or 0'
+    a = 'Age cannot be negative or 0'
 elif 0 < age < 14:
     a = 'Min age to login is 14'
 elif 16 <= age <= 17:

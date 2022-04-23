@@ -54,8 +54,8 @@ def main():
         if not is_validate_name:
             name: str = input('Enter your name: ').title().strip()
         if not is_validate_age:
-            age_1: str = input('Enter your age: ')
-            age = int(age_1) if age_1 != '' else age_1
+            age_str: str = input('Enter your age: ')
+            age = int(age_str) if age_str != '' else age_str
         name_error_message = validate_name(name)
         age_error_message = validate_age(age)
         if not name_error_message:

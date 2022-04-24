@@ -17,9 +17,13 @@
 # Только один раз можно использовать print
 
 
+"""
+ Declaring and Initializing variables name, age
+"""
 name: str = input('Enter your name:').capitalize().strip()
 age: int = int(input('Enter your age:'))
 
+# Validate name and age. Initializing print message
 if len(name) < 3:
     a = 'Name cannot be less than 3 symbols'
 elif age <= 0:

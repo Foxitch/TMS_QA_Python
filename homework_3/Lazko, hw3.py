@@ -10,12 +10,12 @@
 # 5. Создать цикл до тех пор, пока пользователь не введёт верные данные без ошибок
 # 6. Создать функцию, которая очищает введённые данные от лишних пробелов в начале и в конце строки
 # 7. Все функции должны иметь документацию (docstring) (вспоминаем второй урок) и аннотации
-#
 # И по классике — ограничения:
 # Разрешается использовать только два раза print
 # Нельзя использовать глобальные переменные
 
 
+# Validate entered name from main()
 def validate_name(name: str) -> str:
     if not name:
         return 'You did not enter the name. '
@@ -25,6 +25,7 @@ def validate_name(name: str) -> str:
         return 'Name should not be less than 3 symbols. '
 
 
+# Validate entered age from main()
 def validate_age(age: int) -> str:
     if age == '':
         return 'Age cannot be empty. '
@@ -34,6 +35,7 @@ def validate_age(age: int) -> str:
         return 'Min age to login into the system is 14. '
 
 
+# Handles age from main()
 def give_advice(age: int) -> str:
     if 16 <= age <= 17:
         return f'Do not forget to get your first passport. '
@@ -44,6 +46,12 @@ def give_advice(age: int) -> str:
 
 
 def main():
+    """
+    Declaring variables name, age. Calling functions validate_name, validate_age, give_advice.
+    Initializing variables name, age.
+    :return:
+    Greeting message or error message
+    """
     name = ''
     age = 0
     is_validate_name: bool = False

@@ -59,17 +59,21 @@ def main():
 
     while not is_validate_name or not is_validate_age:
         message: str = ''
+
         if not is_validate_name:
             name: str = input('Enter your name: ').title().strip()
         if not is_validate_age:
             age_str: str = input('Enter your age: ')
             age = int(age_str) if age_str != '' else age_str
+
         name_error_message = validate_name(name)
         age_error_message = validate_age(age)
+
         if not name_error_message:
             is_validate_name = True
         else:
             message += name_error_message
+
         if not age_error_message:
             is_validate_age = True
         else:
@@ -80,6 +84,7 @@ def main():
     advice = give_advice(age)
     if not advice:
         advice = ''
+
     print(f'Hello, {name}. Your age is {age}. ' + advice)
 
 

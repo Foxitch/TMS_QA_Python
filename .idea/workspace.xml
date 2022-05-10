@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa06e34d-8acb-4029-b7e5-0b0562be3605" name="Changes" comment="Renamed variable">
-      <change afterPath="$PROJECT_DIR$/homework_4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_4/hw4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TMS_QA_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TMS_QA_Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fa06e34d-8acb-4029-b7e5-0b0562be3605" name="Changes" comment="added 4 hw">
+      <change afterPath="$PROJECT_DIR$/homework_5/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2022_20_24_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_2022_20_24__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
       <recent name="D:\Python\TMS_QA_Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hw4">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="Lazko, hw3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TMS_QA_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,6 +82,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TMS_QA_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TMS_QA_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.hw4" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.Lazko, hw3" />
@@ -155,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650756886955</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added 4 hw">
+      <created>1651431379619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651431379619</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +203,7 @@
     <MESSAGE value="Refactored project" />
     <MESSAGE value="Hw 3 was added" />
     <MESSAGE value="Renamed variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed variable" />
+    <MESSAGE value="added 4 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 4 hw" />
   </component>
 </project>

@@ -10,3 +10,40 @@
 
 # *5. Сделать функцию, которая на вход принимает строку. Анализирует ее методом .isdigit() и переводит строку в число.
 # Функция должна распознавать отрицательные и дробные числа
+
+
+""" 1.lambda функция """
+f = lambda x: 'Четное' if x % 2 == 0 else 'Нечетное'
+print(
+    f(int(input('Введите число: ')))
+    )
+
+print()
+
+""" 2. map() """
+number_list = [i for i in range(11)]
+print(
+    list(
+        map(
+            lambda x: str(x),
+            number_list,
+        )
+    )
+)
+
+print()
+
+""" 3. filter() """
+words_list = ('маДам', 'Шабаш', 'лишил', 'ковер', 'луна', 'солнце')
+print(
+    list(
+        filter(
+            lambda x: x.lower() == x[::-1].lower(),
+            words_list,
+        )
+    )
+)
+
+print()
+
+"""4. Декораторы """

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa06e34d-8acb-4029-b7e5-0b0562be3605" name="Changes" comment="refactored files namw">
-      <change beforePath="$PROJECT_DIR$/.idea/TMS_QA_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TMS_QA_Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fa06e34d-8acb-4029-b7e5-0b0562be3605" name="Changes" comment="4/5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_3/hw3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_3/hw3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework_5/hw5.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_5/hw5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +73,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TMS_QA_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.hw3" />
       <item itemvalue="Python.hw5" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.hw5" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650992030510</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4/5">
+      <created>1652294790521</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652294790521</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored project" />
     <MESSAGE value="Added whitespaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added whitespaces" />
+    <MESSAGE value="4/5" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/5" />
   </component>
 </project>

@@ -87,11 +87,35 @@ print()
 """ 5. Из строки в число """
 
 
-def from_str_to_digit(string: str) -> Optional[str or int]:
+def from_str_to_digit(string: str):
     if string.isdigit():
-        return f'Got value: {int(string)}'
+        return f'You entered the positive integer digit: {int(string)}'
+
+    if '.' in string:
+        try:
+            string = float(string)
+            return f'You entered the fractional number: {string}'
+        except ValueError:
+            return f'You entered the wrong digit: {string}'
     else:
-        return f'That is not digit: {string}'
+        try:
+            string = int(string)
+            return f'You entered the integer number: {string}'
+        except ValueError:
+            return f'You entered the wrong digit: {string}'
 
 
-print(from_str_to_digit(input('Enter the value: ')))
+def main():
+    lst = ['-6.7', '5', '5.4r', '-.777', '0', '-e', '33=', '.7.99', '', '6e', '8 ** 2']
+    print(
+        list(
+            map(
+                from_str_to_digit,
+                lst,
+            )
+        )
+    )
+
+
+if __name__ == '__main__':
+    main()

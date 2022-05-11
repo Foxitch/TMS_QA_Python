@@ -12,10 +12,15 @@
 # Функция должна распознавать отрицательные и дробные числа
 
 
+import math
+from time import time
+from typing import Optional
+
+
 """ 1.lambda функция """
-f = lambda x: 'Четное' if x % 2 == 0 else 'Нечетное'
+f = lambda x: 'Even' if x % 2 == 0 else 'Odd'
 print(
-    f(int(input('Введите число: ')))
+    f(int(input('Enter the digit: ')))
     )
 
 print()
@@ -47,3 +52,46 @@ print(
 print()
 
 """4. Декораторы """
+
+
+def decorator(func):
+    def wrapper(*args, **kwargs):
+        start_time = time()
+        result = func(*args, **kwargs)
+        end_time = time()
+        total_time = round(end_time - start_time, 5)
+        print(f'The function {func.__name__} needs {total_time} seconds for complete')
+        return result
+
+    return wrapper
+
+
+@decorator
+def factorial(digit: int) -> int:
+    result = 1
+    for i in range(1, digit + 1):
+        result *= i
+    return result
+
+
+@decorator
+def factorial_math_module(digit: int) -> int:
+    return math.factorial(digit)
+
+
+print(factorial(10_000))
+print(factorial_math_module(10_000))
+
+print()
+
+""" 5. Из строки в число """
+
+
+def from_str_to_digit(string: str) -> Optional[str or int]:
+    if string.isdigit():
+        return f'Got value: {int(string)}'
+    else:
+        return f'That is not digit: {string}'
+
+
+print(from_str_to_digit(input('Enter the value: ')))

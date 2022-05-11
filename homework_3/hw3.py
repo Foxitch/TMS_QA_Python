@@ -15,8 +15,11 @@
 # Нельзя использовать глобальные переменные
 
 
+from typing import Optional
+
+
 # Validate entered name from main()
-def validate_name(name: str) -> str:
+def validate_name(name: str) -> Optional[str, None]:
     if not name:
         return 'You did not enter the name. '
     elif name.count(' ') > 1:
@@ -26,7 +29,7 @@ def validate_name(name: str) -> str:
 
 
 # Validate entered age from main()
-def validate_age(age: int) -> str:
+def validate_age(age: int) -> Optional[str, None]:
     if age == '':
         return 'Age cannot be empty. '
     elif age <= 0:
@@ -35,8 +38,8 @@ def validate_age(age: int) -> str:
         return 'Min age to login into the system is 14. '
 
 
-# Handles age from main()
-def give_advice(age: int) -> str:
+# Handles age from main() and return Advice or None
+def give_advice(age: int) -> Optional[str, None]:
     if 16 <= age <= 17:
         return f'Do not forget to get your first passport. '
     elif 25 <= age <= 26:

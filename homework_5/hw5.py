@@ -20,7 +20,7 @@ from typing import Optional
 """ 1.lambda функция """
 f = lambda x: 'Even' if x % 2 == 0 else 'Odd'
 print(
-    f(int(input('Enter the digit: ')))
+    f(int(input('Enter a number: ')))
     )
 
 print()
@@ -80,6 +80,7 @@ def factorial_math_module(digit: int) -> int:
 
 
 print(factorial(10_000))
+print()
 print(factorial_math_module(10_000))
 
 print()

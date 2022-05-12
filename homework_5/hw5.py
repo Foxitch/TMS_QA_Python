@@ -18,10 +18,11 @@ from typing import Optional
 
 
 """ 1.lambda функция """
-f = lambda x: 'Even' if x % 2 == 0 else 'Odd'
 print(
-    f(int(input('Enter a number: ')))
+    list(
+        map(lambda x: 'Even' if x % 2 == 0 else 'Odd', [1, 2, 3, 4, 5])
     )
+)
 
 print()
 

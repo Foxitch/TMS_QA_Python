@@ -12,10 +12,10 @@
 # А затем сделать коллекцию из этих объектов и через цикл пройтись по каждому из этих объектов
 # и вызвать те методы, которые есть во всех классах.
 
-from abc import abstractmethod
+from abc import abstractmethod, ABC
 
 
-class Car:
+class Car(ABC):
 
     def __init__(self, max_speed: int):
         self.max_speed = max_speed

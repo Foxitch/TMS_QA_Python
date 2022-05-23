@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa06e34d-8acb-4029-b7e5-0b0562be3605" name="Changes" comment="added abc">
-      <change afterPath="$PROJECT_DIR$/homework_7/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_7/hw7_data_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_7/hw7_json_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_05_2022_19_11_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_05_2022_19_11__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_05_2022_23_26_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_05_2022_23_26__Changes_.xml" beforeDir="false" />
+    <list default="true" id="fa06e34d-8acb-4029-b7e5-0b0562be3605" name="Changes" comment="started 7 hw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_6/hw6.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_6/hw6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_7/hw7_data_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_7/hw7_data_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_7/hw7_json_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_7/hw7_json_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652815250563</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="started 7 hw">
+      <created>1653329140350</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653329140350</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +248,14 @@
     <MESSAGE value="5/5" />
     <MESSAGE value="rewrote text" />
     <MESSAGE value="added abc" />
-    <option name="LAST_COMMIT_MESSAGE" value="added abc" />
+    <MESSAGE value="started 7 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="started 7 hw" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="list_with_cars" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

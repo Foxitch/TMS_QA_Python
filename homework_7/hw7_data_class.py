@@ -4,12 +4,14 @@
 # 4. Написать функцию, которая создает несколько машин и сохраняет их в файл, если файла нет или он пустой
 
 
+from dataclasses_json import dataclass_json
 from dataclasses import dataclass, field
 
 """ Initialize DataClass """
 
 
-@dataclass(order=True)
+@dataclass_json
+@dataclass(order=False)
 class DataCar:
     name: str = field(compare=False)
     color: str = field(compare=False)
@@ -25,3 +27,7 @@ class DataCar:
             raise ValueError('year must be an integer')
         if not isinstance(self.speed_limit, int):
             raise ValueError('speed_limit must be a integer')
+
+    def __gt__(self, other):
+        return self.year > other.year
+

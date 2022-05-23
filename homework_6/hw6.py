@@ -13,7 +13,7 @@ class Person:
 
     @person_name.setter
     def person_name(self, name: str):
-        name.strip()
+        name = name.strip()
         if not name:
             raise SystemError('You did not enter the name')
         elif len(name) < 3:

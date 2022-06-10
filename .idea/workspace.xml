@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa06e34d-8acb-4029-b7e5-0b0562be3605" name="Changes" comment="started 7 hw">
+    <list default="true" id="fa06e34d-8acb-4029-b7e5-0b0562be3605" name="Changes" comment="finished the 7th hw">
+      <change afterPath="$PROJECT_DIR$/homework_8/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_8/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_8/test_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_car.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TMS_QA_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TMS_QA_Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_05_2022_15_31_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_05_2022_15_31__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_7/hw7_data_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_7/hw7_data_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_7/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/homework_7/cars.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework_7/hw7_json_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_7/hw7_json_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +45,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JSON" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework_8" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
-  <component name="RunManager" selected="Python.hw7_json_file">
-    <configuration name="hw3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\TMS_QA_Python\homework_8" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in test_functions.py">
+    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TMS_QA_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Fujitsu\PycharmProjects\qa_python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_3" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_8" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework_3/hw3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework_8/functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,104 +75,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hw5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_functions.TestFunctions.test_give_advice_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TMS_QA_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework_5/hw5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_functions.TestFunctions.test_give_advice_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="hw6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_functions.TestFunctions.test_validate_age_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TMS_QA_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework_6/hw6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_functions.TestFunctions.test_validate_age_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="hw7_json_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_functions.TestFunctions.test_validate_name_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TMS_QA_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework_7/hw7_json_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_functions.TestFunctions.test_validate_name_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_functions.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TMS_QA_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework_8/test_functions.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.hw3" />
-      <item itemvalue="Python.hw5" />
-      <item itemvalue="Python.hw6" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.hw7_json_file" />
+      <item itemvalue="Python.functions" />
+      <item itemvalue="Python tests.Python tests in test_functions.py" />
+      <item itemvalue="Python tests.Python tests for test_functions.TestFunctions.test_validate_age_negative" />
+      <item itemvalue="Python tests.Python tests for test_functions.TestFunctions.test_validate_name_positive" />
+      <item itemvalue="Python tests.Python tests for test_functions.TestFunctions.test_give_advice_negative" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hw7_json_file" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.hw6" />
-        <item itemvalue="Python.hw5" />
-        <item itemvalue="Python.hw3" />
+        <item itemvalue="Python tests.Python tests in test_functions.py" />
+        <item itemvalue="Python tests.Python tests for test_functions.TestFunctions.test_validate_age_negative" />
+        <item itemvalue="Python tests.Python tests for test_functions.TestFunctions.test_give_advice_negative" />
+        <item itemvalue="Python tests.Python tests for test_functions.TestFunctions.test_validate_name_positive" />
+        <item itemvalue="Python.functions" />
       </list>
     </recent_temporary>
   </component>
@@ -226,8 +213,26 @@
       <option name="project" value="LOCAL" />
       <updated>1653329140350</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finished the 7th hw">
+      <created>1653345417306</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653345417306</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -249,7 +254,8 @@
     <MESSAGE value="rewrote text" />
     <MESSAGE value="added abc" />
     <MESSAGE value="started 7 hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="started 7 hw" />
+    <MESSAGE value="finished the 7th hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished the 7th hw" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

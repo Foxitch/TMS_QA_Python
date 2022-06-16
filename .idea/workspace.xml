@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa06e34d-8acb-4029-b7e5-0b0562be3605" name="Changes" comment="finished the 7th hw">
-      <change afterPath="$PROJECT_DIR$/homework_8/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_8/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_8/test_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_car.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_9/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_9/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_9/test_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/test_selenium.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/TMS_QA_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TMS_QA_Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_05_2022_15_31_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_05_2022_15_31__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_7/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/homework_7/cars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_7/hw7_json_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_7/hw7_json_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_car.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +33,26 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="281jKL7iG0MMUDIwaHl7jA1UCsI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework_8" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/TMS_QA/homework_9",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\TMS_QA\homework_9" />
       <recent name="D:\Python\TMS_QA_Python\homework_8" />
     </key>
   </component>
@@ -244,7 +247,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored project" />

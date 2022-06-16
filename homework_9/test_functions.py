@@ -1,7 +1,6 @@
 import unittest
 from functions import Validator
 
-
 class TestFunctions(unittest.TestCase):
 
     def setUp(self) -> None:

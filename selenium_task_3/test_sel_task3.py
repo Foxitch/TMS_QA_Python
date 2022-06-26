@@ -37,6 +37,7 @@ class TestSelTask3:
         task.get_user_name_input_field().send_keys(user_name)
         task.get_password_input_value().send_keys(password)
         task.get_confirm_password_input_value().send_keys(confirm_password)
+        time.sleep(1)
         task.get_submit_btn()
 
         first_last_name_result = task.get_result_first_last_name().text

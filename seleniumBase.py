@@ -25,25 +25,21 @@ class SeleniumBase:
                     'tag_name': By.TAG_NAME}
         return locating[find_by]
 
-    def save_screenshot(self, path):
-        return self.driver.save_screenshot(path)
-
-    def current_url(self):
-        current_url = self.driver.current_url
-        return current_url
-
-    def move_to_url(self, url: str):
-        return self.driver.get(url)
-
     @staticmethod
     def get_element_attribute(element: WebElement, attribute_name: str):
         return element.get_attribute(attribute_name)
 
-    def is_present(self, find_by, locator, locator_name=None) -> WebElement:
-        return self.__wait.until(ec.presence_of_element_located((self.__get_selenium_by(find_by), locator)),
-                                 locator_name)
+    def is_present(self, find_by, locator) -> WebElement:
+        return self.__wait.until(
+            ec.presence_of_element_located(
+                (self.__get_selenium_by(find_by), locator)
+            )
+        )
 
-    def are_present(self, find_by, locator, locator_name=None) -> List[WebElement]:
-        return self.__wait.until(ec.presence_of_all_elements_located((self.__get_selenium_by(find_by), locator)),
-                                 locator_name)
+    def are_present(self, find_by: str, locator: str) -> List[WebElement]:
+        return self.__wait.until(
+            ec.presence_of_all_elements_located(
+                (self.__get_selenium_by(find_by), locator)
+            )
+        )
 

@@ -4,13 +4,11 @@
 # 4. Написать функцию, которая создает несколько машин и сохраняет их в файл, если файла нет или он пустой
 
 
-from dataclasses_json import dataclass_json
 from dataclasses import dataclass, field
 
 """ Initialize DataClass """
 
 
-@dataclass_json
 @dataclass(order=False)
 class DataCar:
     name: str = field(compare=False)

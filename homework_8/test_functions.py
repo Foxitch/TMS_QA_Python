@@ -2,6 +2,7 @@ import unittest
 from functions import Validator
 from selenium import webdriver
 
+
 class TestFunctions(unittest.TestCase):
 
     def setUp(self) -> None:

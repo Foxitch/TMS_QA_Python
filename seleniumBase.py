@@ -25,6 +25,9 @@ class SeleniumBase:
                     'tag_name': By.TAG_NAME}
         return locating[find_by]
 
+    def open_url(self, url) -> None:
+        return self.driver.get(url)
+
     @staticmethod
     def get_element_attribute(element: WebElement, attribute_name: str):
         return element.get_attribute(attribute_name)

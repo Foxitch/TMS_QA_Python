@@ -46,3 +46,10 @@ class SeleniumBase:
             )
         )
 
+    def invisibility_of_element(self, find_by: str, locator: str):
+        return self.__wait.until(
+            ec.invisibility_of_element(
+                (self.__get_selenium_by(find_by), locator)
+            )
+        )
+

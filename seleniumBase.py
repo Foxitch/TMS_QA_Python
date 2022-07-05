@@ -53,3 +53,6 @@ class SeleniumBase:
             )
         )
 
+    def switch_to_iframe(self, frame):
+        return self.driver.switch_to.frame(frame)
+

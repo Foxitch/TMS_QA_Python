@@ -1,6 +1,7 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as chrome_options
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 @pytest.fixture
@@ -14,8 +15,7 @@ def get_chrome_options():
 
 @pytest.fixture
 def get_webdriver(get_chrome_options):
-    driver = webdriver.Chrome('C:/Users/User/PycharmProjects/selenium_tasks/chromedriver.exe',
-                              options=get_chrome_options)
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=get_chrome_options)
     return driver
 
 
